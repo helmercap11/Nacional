@@ -7,6 +7,7 @@ import 'package:nacional/src/tabs/all_tab.dart';
 import 'package:nacional/src/tabs/drinks_tab.dart';
 import 'package:nacional/src/tabs/food_tab.dart';
 import 'package:nacional/src/widgets/custom_all.dart';
+import 'package:nacional/src/widgets/custom_drawer.dart';
 import 'package:nacional/src/widgets/custom_text.dart';
 
 class HomePage extends StatefulWidget {
@@ -22,27 +23,7 @@ class _HomePageState extends State<HomePage> {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
-        drawer: Drawer(
-          child: ListView(
-            padding: EdgeInsets.zero,
-            children: <Widget>[
-              DrawerHeader(
-                child: Text('Drawer Header'),
-                decoration: BoxDecoration(
-                  color: red,
-                ),
-              ),
-              ListTile(
-                title: Text('item1'),
-                onTap: () {},
-              ),
-              ListTile(
-                title: Text('Item2'),
-                onTap: () {},
-              ),
-            ],
-          ),
-        ),
+        drawer: CustomDrawer(),
         appBar: AppBar(
           // iconTheme: IconThemeData(color: white),
           elevation: 0.1,
