@@ -16,7 +16,7 @@ class CustomTile extends StatelessWidget {
         children: <Widget>[
           Icon(
             icon,
-            color: red,
+            color: pink,
             size: 35,
           ),
           SizedBox(width: 10,),

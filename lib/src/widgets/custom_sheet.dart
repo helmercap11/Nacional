@@ -102,7 +102,7 @@ class CustomSheet extends StatelessWidget {
                                       child: CustomText(
                                         text: "\kz ${productSheeList[index].price}",
                                         size: 18,
-                                        color: red,
+                                        color: pink,
                                         weight: FontWeight.bold,
                                       ),
                                     ),
@@ -117,7 +117,15 @@ class CustomSheet extends StatelessWidget {
                                       ),
                                     )
                                   ],
-                                )
+                                ),
+                                 SizedBox(width: 40,),
+                                  IconButton(
+                                    icon: Icon(
+                                      Icons.chevron_right,
+                                      color: pink,
+                                      size: 30,
+                                    ), 
+                                    onPressed: null)
                               ],
                             )
                           ],

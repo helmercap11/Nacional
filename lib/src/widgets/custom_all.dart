@@ -115,7 +115,11 @@ class CustomAll extends StatelessWidget {
                   child: Container(
                    alignment: Alignment.center,
                     child: Row(
-                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                       /*spacing: 5.0,
+                       runSpacing: 5.0,
+                       direction: Axis.vertical,*/
+                      //mainAxisSize: MainAxisSize.max,
                       children: <Widget>[
                         Container(
                           alignment: Alignment.centerLeft,
@@ -163,7 +167,7 @@ class CustomAll extends StatelessWidget {
                                         child: CustomText(
                                           text: "\kz ${productList[index].price}",
                                           size: 18,
-                                          color: red,
+                                          color: pink,
                                           weight: FontWeight.bold,
                                         ),
                                       ),
@@ -176,7 +180,15 @@ class CustomAll extends StatelessWidget {
                                         ),
                                       )
                                     ],
-                                  )
+                                  ),
+                                  SizedBox(width: 40,),
+                                  IconButton(
+                                    icon: Icon(
+                                      Icons.chevron_right,
+                                      color: pink,
+                                      size: 30,
+                                    ), 
+                                    onPressed: null)
                                 ],
                               )
                             ],

@@ -77,9 +77,11 @@ class CustomDrinks extends StatelessWidget {
                         ),
                         Container(
                           padding: EdgeInsets.only(left: 10),
-                          child: Wrap(
-                            crossAxisAlignment: WrapCrossAlignment.center,
-                            direction: Axis.vertical,
+                          child: Column(
+                              mainAxisSize: MainAxisSize.max,
+                             crossAxisAlignment: CrossAxisAlignment.center, 
+                            /*crossAxisAlignment: WrapCrossAlignment.center,
+                            direction: Axis.vertical,*/
                             //mainAxisSize: MainAxisSize.max,
                            // crossAxisAlignment: CrossAxisAlignment.center,
                             children: <Widget>[
@@ -121,7 +123,7 @@ class CustomDrinks extends StatelessWidget {
                                         child: CustomText(
                                           text: "\Kz ${productDrinkList[index].price}",
                                           size: 18,
-                                          color: red,
+                                          color: pink,
                                           weight: FontWeight.bold,
                                         ),
                                       ),

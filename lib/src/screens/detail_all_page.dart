@@ -10,6 +10,7 @@ class DetailAllPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Detalhes do pedido"),
+        centerTitle: true,
       ),
       body: Container(
         padding: EdgeInsets.only(left: 15, right: 15, bottom: 150),
@@ -38,7 +39,7 @@ class DetailAllPage extends StatelessWidget {
                     ),
                     CustomText(
                       text: "1000.00",
-                      color: red,
+                      color: pink,
                       size: 20,
                       weight: FontWeight.w500,
                     )
@@ -62,7 +63,7 @@ class DetailAllPage extends StatelessWidget {
                     width: 200.0,
                     height: 45.0,
                     decoration: BoxDecoration(
-                      color: red,
+                      color: pink,
                       border: Border.all(color: white, width: 2.0),
                       borderRadius: BorderRadius.circular(10.0),
                     ),

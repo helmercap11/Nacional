@@ -13,7 +13,7 @@ class CustomDrawer extends StatelessWidget {
           children: <Widget>[
             Container(
               height: 140,
-              color: red,
+              color: pink,
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -74,7 +74,7 @@ class CustomDrawer extends StatelessWidget {
               height: 60,
               width: double.infinity,
               padding: EdgeInsets.only(left: 10, top: 20),
-              color: red,
+              color: pink,
               child: CustomText(
                 text: "Suporte",
                 color: white,

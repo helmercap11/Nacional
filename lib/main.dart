@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Nacional',
       theme: ThemeData(
-        primarySwatch: red,
+        primarySwatch: pink,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Splash(),

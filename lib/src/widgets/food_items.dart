@@ -100,7 +100,7 @@ class FoodItems extends StatelessWidget {
                                         ]),
                                     child: Icon(
                                       Icons.near_me,
-                                      color: red,
+                                      color: pink,
                                       size: 16,
                                     ),
                                   ),
@@ -122,22 +122,22 @@ class FoodItems extends StatelessWidget {
                                           Icon(
                                             Icons.star,
                                             size: 16,
-                                            color: red,
+                                            color: pink,
                                           ),
                                           Icon(
                                             Icons.star,
                                             size: 16,
-                                            color: red,
+                                            color: pink,
                                           ),
                                           Icon(
                                             Icons.star,
                                             size: 16,
-                                            color: red,
+                                            color: pink,
                                           ),
                                           Icon(
                                             Icons.star,
                                             size: 16,
-                                            color: red,
+                                            color: pink,
                                           ),
                                           Icon(
                                             Icons.star,

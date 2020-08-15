@@ -17,6 +17,7 @@ class PayAllPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Conferir Pedido"),
+        centerTitle: true,
       ),
       body: Container(
         child: Container(
@@ -131,7 +132,7 @@ class PayAllPage extends StatelessWidget {
                     size: 20,
                     color: white,
                   ),
-                  color: red,
+                  color: pink,
                   textColor: white,
                   elevation: 5,
                   height: 50.0,
@@ -166,7 +167,7 @@ class AddAll extends StatelessWidget {
               width: 50.0,
               height: 35.0,
               decoration: BoxDecoration(
-                  color: red,
+                  color: pink,
                   border: Border.all(color: white, width: 2.0),
                   borderRadius: BorderRadius.circular(5.0)),
               child: Center(
